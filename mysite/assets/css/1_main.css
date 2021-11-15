@@ -1,0 +1,18 @@
+
+@charset "UTF-8";
+
+/* 컨텐츠 영역 > 메인페이지 */
+#cts_img {
+    float: left;
+    width: 300px;
+    margin: 0px 40px 0px 0px;
+}
+
+#cts_txt {
+    float:left;
+}
+
+/* <수업중에는 br을 넣었지만 그렇지않고 공간을 직접 주는것이 좋다> */
+#cts_txt>p {
+    margin: 0px 0px 20px 0px;
+}

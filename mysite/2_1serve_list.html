@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>게시판입니다</title>
+        <link rel="stylesheet" href="./assets/css/0_mysite.css">
+        <link rel="stylesheet" href="./assets/css/2_1board.css">
+        <style>
+        </style>
+    </head>
+
+    <body>
+        <div id="wrap">
+            <div id="header" class="clearfix">
+                <h1><a href="">MySite</a></h1>
+                <ul class="clearfix">
+                    <li><a href="">로그인</a></li>
+                    <li><a href="">회원가입</a></li>
+                </ul>
+            </div>
+
+            <div id="nav">
+                <ol class="clearfix">
+                    <li>입사지원서</li>
+                    <li>게시판</li>
+                    <li>갤러리</li>
+                    <li>방명록</li>
+                </ol>
+            </div>
+
+            <div id="contents2" class="clearfix">
+                <div id="aside">
+                    <h2>게시판</h2>
+                    <ul>
+                        <li>일반 게시판</li>
+                        <li>댓글 게시판</li>
+                        <li>첨부 게시판</li>
+                    </ul>
+                </div>
+
+                <div id="main">
+                    <div id="main_hd" class="clearfix">
+                        <h3>일반게시판</h3>
+                        <ol class="clearfix">
+                            <li>홈</li>
+                            <li>게시판</li>
+                            <li class="last">일반게시판</li>
+                        </ol>
+                    </div>
+
+                    <div id="main_bd">
+                       <table>
+                        <colgroup>
+                            <col style="width: 10%;">
+                            <col style="width: 90%;">
+                        </colgroup>
+                            <tr>
+                                <td>게시판선택</td>
+                                <td>
+                                    <select>
+                                        <option>선택해주세요</option>
+                                        <option>선택해주세요</option>
+                                        <option>선택해주세요</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>제목</td>
+                                <td><input id="board_title" type="text" placeholder="제목을 입력해 주세요"></td>
+                            </tr>
+                            <tr>
+                                <td>비밀번호</td>
+                                <td>
+                                    <input type="password">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>공개범위</td>
+                                <td>
+                                    <label for="radio_me">본인</label>
+                                    <input id="radio_me" type="radio" name="public scope" value="">
+
+                                    <label for="radio_member">로그인회원</label>
+                                    <input id="radio_member" type="radio" name="public scope" value="">
+
+                                    <label for="radio_friend">친구</label>
+                                    <input id="radio_friend" type="radio" name="public scope" value="">
+
+                                    <label for="radio_all">전체</label>
+                                    <input id="radio_all" type="radio" name="public scope" value="">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>허용범위</td>
+                                <td>
+                                    <label for="chbox_comment">댓글허용</label>
+                                    <input id="chbox_comment" type="checkbox" name="tolerance" value="">
+
+                                    <label for="chbox_reply">답글허용</label>
+                                    <input id="chbox_reply" type="checkbox" name="tolerance" value="">
+
+                                    <label for="chbox_like">좋아요허용</label>
+                                    <input id="chbox_like" type="checkbox" name="tolerance" value="">
+                                </td>
+                            </tr>
+                        </table>
+                        <div >
+                            <textarea id="board_textarea" name="textarea"></textarea>
+                        </div>
+                        <div id="board_line">
+                            <label for="board_file">첨부파일</label>
+                            <input id="board_file" type="file" name="file" value="">
+                        </div>
+                        <div id="board_button">
+                            <button type="submit">등록</button>
+                            <button type="reset">초기화</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="footer">
+                <p>
+                    copyright (c) 2021 장서윤. All right reserved
+                </p>
+            </div>
+
+        </div>
+    </body>
+</html>

@@ -1,0 +1,7 @@
+/* 처음부터 css로 적용되기때문에 꺽쇠쓰지 않음 */
+@charset"UTF-8";
+
+h2 {color:#0070c0;}
+h3 {color:#ff0000;}
+
+li {color:#ff00ff;}

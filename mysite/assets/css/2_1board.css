@@ -1,0 +1,94 @@
+
+@charset "UTF-8";
+
+#contents2 #aside {
+    float: left;
+    width: 180px;
+    margin: 0px 20px 0px 0px;
+    /* background-color:#ff0000; */
+
+}
+#contents2 #main {
+    float: left;
+}
+#contents2 #aside h2 {
+    background-color: #dddddd;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 15px 20px 15px;
+    
+}
+#contents2 #aside ul>li {
+    border: 1px solid #a6a6a6;
+    font-size: 15px;
+    padding: 5px 5px 5px 5px;
+    margin: 5px 0px 0px 0px;
+}
+/* -----------------main_content----------- */
+#contents2 #main {
+    width: 798px;
+    padding: 20px 0px 20px 0px;
+}
+#contents2 #main #main_hd{
+    border-bottom: 1px  solid #a6a6a6;
+    
+}
+#contents2 #main #main_hd h3{
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+    margin: 0px 0px 3px 0px;
+}
+#contents2 #main #main_hd ol {
+    float: right;
+}
+#contents2 #main #main_hd ol>li {
+    float: left;
+    padding: 5px 0px 0px 0px;
+}
+#contents2 #main #main_hd ol>li:after {
+    content: ">";
+}
+#contents2 #main #main_hd ol>li.last:after {
+    content: "";
+}
+/* ★========form board===================================== */
+
+table {
+    width: 798px;
+}
+
+table td {
+    padding: 5px 0px 0px 0px;
+}
+
+#board_title {
+    width: 700px;
+}
+
+#board_textarea {
+    display: block;
+    width: 798px;
+    height: 250px;
+    margin: 5px 0px 0px 0px;
+}
+
+#board_file {
+    margin: 10px 0px 25px 35px;
+}
+
+#board_line {
+    border-bottom: 1px solid #a6a6a6;
+}
+
+#board_button {
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+}
+
+#board_button>button {
+    font-size: 16px;
+    padding: 5px 10px;
+}
+

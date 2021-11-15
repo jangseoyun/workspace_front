@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+
+    <head> 
+        <meta charset="UTF-8">
+        <title>html5_10</title>
+    </head>
+        <!-- 
+        <input type="text"><br>
+        <input type="password"><br>
+        <input type="file"><br>
+        <input type="radio"><br>
+        <input type="checkbox"><br>
+        <input type="hidden">사용자에게는 보이지 않는(개발자만)  -->
+
+    <body>
+        <!-- action은 관리자 주소 들어가는 곳 -->
+        <form action="" method="get">
+            <!-- #label+id -->
+            <label for="u_id">ID</label>
+            <input id="u_id" type="text" name="uid" placeholder="아이디를 입력하세요"><br>
+            <!-- #label+pw -->
+            <label for="u_pw">PW</label>
+            <input id="u_pw" type="password" name="upw" placeholder="패스워드를 입력하세요"><br>
+            <!-- #label+file -->
+            <input type="file" name="file" value="">
+            <br>
+            <br>
+
+            <!-- #hobby checkbox -->
+            <label for="chk_surf">서핑</label>
+            <input id="chk_surf" type="checkbox" name="hobby" value="surf" checked="checked"><br>
+            
+            <label for="chk_music">음악</label>
+            <input id="chk_music" type="checkbox" name="hobby" value="music"><br>
+            
+            <label for="chk_trip">여행</label>
+            <input id="chk_trip" type="checkbox" name="hobby" value="trip">
+            <br>
+            <br>
+            
+            <!-- #pet checkbox -->
+            <label for="chk_dog">개</label>
+            <input id="chk_dog" type="checkbox" name="pet" value="bog"><br>
+            
+            <label for="chk_cat">고양이</label>
+            <input id="chk_cat" type="checkbox" name="pet" value="cat"><br>
+            
+            <label for="chk_bird">새</label>
+            <input id="chk_bird" type="checkbox" name="pet" value="bird"><br>
+            <br>
+            <br>
+
+            <!-- #fruit radio -->
+            <label for="rdo_apple">사과</label>
+            <input id="rdo_apple" type="radio" name="fruit" value="apple"><br>
+            
+            <label for="rdo_grape">포도</label>
+            <input id="rdo_grape" type="radio" name="fruit" value="grape"><br>
+            
+            <label for="rdo_orange">오렌지</label>
+            <input id="rdo_orange" type="radio" name="fruit" value="orange" checked="checked"><br>
+            <br>
+            <br>
+
+            <!-- #month radio -->
+            <label for="rdo_m1">1월</label>
+            <input id="rdo_m1" type="radio" name="month" value="m1"><br>
+
+            <label for="rdo_m2">2월</label>
+            <input id="rdo_m2" type="radio" name="month" value="m2"><br>
+
+            <label for="rdo_m3">3월</label>
+            <input id="rdo_m3" type="radio" name="month" value="m3"><br>
+            <br>
+            <br>
+            <!-- #select -->
+            <select name="telecom">
+                <option value="" selected="selected">이동통신사를 선택해 주세요</option>
+                <option value="sk">SKT</option> 
+                <option value="ktf">KTF</option>
+                <option value="lg">LG</option>
+                <option value="etc">ETC</option>
+            </select><br>
+            <br>
+            <br>
+            <!-- #textarea -->
+            <textarea name="content">안녕하세요</textarea>
+            <br>
+            <br>
+
+            <button type="submit">저장</button>
+
+            <!-- <input type="button" value="저장">  -->
+            <!-- 추천하지 않음 css로 디자인을 넣음 -->            
+        
+        </form>   
+    </body>
+
+</html>

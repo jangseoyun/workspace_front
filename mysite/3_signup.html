@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+    <div id="wrap">
+
+        <head>
+            <meta charset="UTF-8">
+            <title>회원가입 페이지</title>
+            <link rel="stylesheet" href="assets/css/0_mysite.css">
+            <link rel="stylesheet" href="../mysite/assets/css/2_1board.css">
+            <link rel="stylesheet" href="../mysite/assets/css/강사.css">
+            <link rel="stylesheet" href="../mysite/assets/css/3_signup.css">
+        </head>
+
+        <body>
+            <div id="header" class="clearfix">
+                <h1><a href="">MySite</a></h1>
+                <ul class="clearfix">
+                    <li><a href="">로그인</a></li>
+                    <li><a href="">회원가입</a></li>
+                </ul>
+            </div>
+
+            <div id="nav">
+                <ol class="clearfix">
+                    <li>입사지원서</li>
+                    <li>게시판</li>
+                    <li>갤러리</li>
+                    <li>방명록</li>
+                </ol>
+            </div>
+
+            <div id="contents2" class="clearfix">
+                <div id="aside">
+                    <h2>회원가입</h2>
+                    <ul>
+                        <li>membership</li>
+                        <li>정기 구독</li>
+                    </ul>
+                </div>
+
+                <div id="main">
+                    <div id="main_hd" class="clearfix">
+                        <h3>회원가입</h3>
+                        <ol class="clearfix">
+                            <li>홈</li>
+                            <li>회원가입</li>
+                            <li class="last">로그인</li>
+                        </ol>
+                    </div>
+<!-- ---------------회원가입 폼--------------------------------------------- -->
+                    <div id="signup_bd" class="clearfix">
+                        <form action="" method="">
+                            <div class="form_group">
+                                <label  class="form_text" for="sign_id">아이디</label>
+                                <input id="sign_id" type="text" name="sign_up" value="" placeholder="아이디를 입력하세요">
+                            </div>
+                    
+                            <div class="form_group">
+                                <label  class="form_text" for="sign_pw">패스워드</label>
+                                <input id="sign_pw" type="password" name="sign_up" value="" placeholder="패스워드를 입력하세요">
+                            </div> 
+
+                            <div class="form_group">
+                                <label  class="form_text" for="sign_name">이름</label>
+                                <input id="sign_name" type="text" name="sign_up" value="" placeholder="이름을 입력하세요">
+                            </div> 
+
+                            <div class="form_group">
+                                <label  class="form_text" for="sign_img">프로필 사진</label>
+                                <input id="sign_img" type="file" name="sign_up" value="">
+                            </div>
+
+                            <div class="form_group">
+                                <label  class="form_text" for="sign">주소</label>
+                                    <input id="sign_zip" type="text" name="sign_up" value="" placeholder="우편번호">
+                                    <button id="btn_zip">
+                                        <a href="">우편번호찾기</a>
+                                    </button>
+                                    <label for="sign_add"></label>
+                                    <input id="sign_add" type="text" name="sign_up" value="" placeholder="주소">
+                            </div>
+
+                            <div class="form_group">
+                                <span class="form_text">이동통신사</span>
+                                <select>
+                                    <option>선택해주세요</option>
+                                    <option>선택1</option>
+                                    <option>선택2</option>
+                                </select>
+                            </div>
+
+                            <div class="form_group">
+                                <span class="form_text">나이</span>
+                                <label for="age_10">10대</label>
+                                <input id="age_10" type="radio" name="age" value="">
+
+                                <label for="age_20">20대</label>
+                                <input id="age_20" type="radio" name="age" value="">
+                                
+                                <label for="age_30">30대</label>
+                                <input id="age_30" type="radio" name="age" value="">
+                            
+                                <label for="age_40">40대</label>
+                                <input id="age_40" type="radio" name="age" value="">
+
+                                <label for="age_another">기타</label>
+                                <input id="age_another" type="radio" name="age" value="">
+                            </div>
+
+                            <div class="form_group">
+                                <span class="form_text">취미</span>
+                                <label for="hby_book">독서</label>
+                                <input id="hby_book" type="checkbox" name="hobby" value="">
+
+                                <label for="hby_music">음악</label>
+                                <input id="hby_music" type="checkbox" name="hobby" value="">
+
+                                <label for="hby_trip">여행</label>
+                                <input id="hby_trip" type="checkbox" name="hobby" value="">
+
+                                <label for="hby_movie">영화</label>
+                                <input id="hby_movie" type="checkbox" name="hobby" value="">
+
+                                <label for="hby_code">코딩</label>
+                                <input id="hby_code" type="checkbox" name="hobby" value="">
+
+                                <label for="hby_another">기타</label>
+                                <input id="hby_another" type="checkbox" name="hobby" value="">
+                            </div>
+
+                            <div class="form_group">
+                                <div id="myself_align" class="clearfix">
+                                    <label class="form_text">자기소개</label>
+                                    <textarea name="myself"></textarea>
+                                </div>
+                            </div>
+
+                            <div class="btn">
+                                <button type="submit">등 록</button>
+                                <button type="reset">초기화</button>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </body>
+
+    </div>
+</html>

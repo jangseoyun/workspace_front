@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+.form_group {
+    /* border: 1px solid #000000; */
+    padding: 5px 0px 5px 0px;
+}
+
+#title {
+    height: 20px;
+    width: 700px;
+}
+
+#pw {
+    height: 20px;
+    width: 200px;
+}
+
+#sel {
+    height: 25px;
+    width: 200px;
+}
+
+/* label {
+    display: inline-block;
+    width: 80px;
+} */
+
+.form_text {
+    display: inline-block;
+    width: 80px;
+}
+
+input[type="radio"] {
+    width: 15px;
+    height: 15px;
+    margin: 0px 15px 0px 0px;
+
+}
+
+input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    margin: 0px 15px 0px 0px;
+}
+
+#text_area {
+    width: 800px;
+    height: 300px;
+}
+
+.btn_area {
+    border-top: 1px solid #000000;
+    padding: 12px 5px 12px 5px;
+    margin: 20px 0px 0px 0px;
+    text-align: center;
+}
+
+/* <공통된 요소를 묶고 다른 부분만 빼서 class> */
+.btn {
+    padding: 10px 5px 3px 5px;
+    border-radius: 2px;
+    /* border: 1px solid #aaaaaa; */
+    text-align: center;
+    cursor: pointer;
+    background-color: #fefefe;
+}
+
+.btn_gray {
+    
+}
+
+.btn_red {
+
+}
+
+.btn_hray:hover {
+    background-color: #d9d9d9;
+}
+

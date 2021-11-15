@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+.form_group {
+    padding: 10px 0px 10px 0px;
+    border-bottom: 1px solid #d9d9d9d9;
+}
+
+#signup_bd textarea {
+    width: 600px;
+    height: 150px;
+}
+
+
+#myself_align>label {
+    float: left;
+}
+
+#myself_align>label>input {
+    float: left;
+}
+
+#btn_zip>a {
+    width: 5px;
+}
+
+
+
+

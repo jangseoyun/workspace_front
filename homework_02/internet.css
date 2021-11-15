@@ -1,0 +1,39 @@
+
+@charset"UTF-8";
+
+body {font-family: "맑은 고딕"; font-size: 17px;}
+
+h1 {font-family: 궁서; font-size: 30px; letter-spacing: 15px;}
+
+h2 {font-size: 25px;}
+h3 {font-size: 20px;}
+
+.chapter2_group {background-color: #d9d9d9;}
+
+.underline {text-decoration: underline;}
+.txt_bold {font-weight: bold;}
+.txt_italic {font-style: italic;}
+
+.txt_green {color: #00ff00;}
+.txt_red {color: #ff0000;}
+.txt_blue {color: #0000ff;}
+.txt_height {line-height: 35px;}
+
+div p {text-indent: 30px;}
+
+li {list-style-type: square;}
+
+/* 5. 주요 국가별 속도 표 */
+.thead_back {background-color: #c8ebfa;}
+
+/* 클래스로 하나씩 지정해주는것이 좋음 다른 td가 있을 수 있기 때문에 */
+#table_01 td~td {text-align: right;}
+#table_01 td~td:before{content:"약"}
+#table_01 td~td:after{content:"(MB/초)"}
+
+#table_01 a:link {color: #000000; text-decoration: none;}
+#table_01 a:visited {color: #000000;}
+#table_01 a:hover {color: #0000ff; text-decoration: overline;}
+#table_01 a:active {color: #ff0000; text-decoration: underline;}
+
+tbody>tr:hover {background-color: #edd3ed;}

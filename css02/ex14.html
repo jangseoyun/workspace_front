@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="ko"> <!-- 한국어문서만 검색할때, 음성으로 할때 한국어 음성지원 -->
+    <head>
+        <meta charset="UTF-8"> <!-- 브라우저가 문서를 해석할때 필요한 정보 -->
+        <title>스타일시트</title>
+        <!-- 스타일시트자리 -->
+        <style>
+            /* ol로 줄 수 있음 */
+            .menu_box {
+                list-style-type: none;
+            }
+
+            ol>li {
+                /* 한줄코드로 가능함 */
+                background-image: url("./img/star.jpg");
+                background-repeat: no-repeat;
+                background-size: 11px;
+                background-position: left;
+                padding-left: 10px;
+
+                float: left;
+
+                border-right: 3px solid #000000;
+                /* margin-right: 45px; 오른쪽에 컨텐츠가 있을 수 있기때문에 밀릴 수 있다 따라서 왼쪽에 마진을 줌 */
+                margin-left: 45px;
+                padding-right: 45px;
+                
+            }
+
+            .box_none {
+                border: none;
+            }
+        </style>
+    </head>
+
+    <body>
+        <ol class="menu_box">
+            <li>메뉴1</li>
+            <li>메뉴2</li>
+            <li>메뉴3</li>
+            <li>메뉴4</li>
+            <li class="box_none">메뉴5</li>
+        </ol>
+        
+
+    </body>
+
+</html>
